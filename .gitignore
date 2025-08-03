@@ -1,0 +1,38 @@
+# Node.js dependencies
+node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VSCode settings (optional)
+.vscode/
+
+# Build artifacts (if any are created)
+dist/
+build/
+
+# Ignore lock files if you use only one lock system
+# You can comment one out if you want to keep it
+# package-lock.json
+# yarn.lock
+
+# Inngest .dev server (if applicable)
+.inngest/
+
+# Ignore coverage output (if using a testing tool like Jest)
+coverage/
+
+# Ignore test reports or debug dumps (if used)
+*.tgz
+*.swp
+*.swo
